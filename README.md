@@ -8,7 +8,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/ehaye-welcome-dark.gif">
   <source media="(prefers-color-scheme: light)" srcset="images/ehaye-welcome.gif">
-  <img alt="ehAye Engine Welcome Screen" src="images/ehaye-welcome.gif" width="100%">
+  <img alt="ehAye Engine Welcome Screen" src="images/ehaye-welcome.gif" width="100%" style="border-radius: 12px;">
 </picture>
 
 
