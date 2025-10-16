@@ -9,12 +9,12 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/ehaye-welcome-dark.gif">
     <source media="(prefers-color-scheme: light)" srcset="images/ehaye-welcome.gif">
-    <img alt="ehAye Engine Welcome Screen" src="images/ehaye-welcome.gif" width="90%">
+    <img alt="ehAye Engine Welcome Screen" src="images/ehaye-welcome.gif" width="85%">
   </picture>
 </div>
 
 <div align="center">
-  <img src="images/ehaye-dashboard.png" alt="ehAye Engine Dashboard" width="90%">
+  <img src="images/ehaye-dashboard.png" alt="ehAye Engine Dashboard" width="85%">
   <p><em>The ehAye™ Engine Dashboard - Your command center for AI voice, vision, and control</em></p>
 </div>
 
@@ -65,6 +65,8 @@ Connect your A.I. assistants directly to sound. ehAye™ Engine integrates seaml
 - **Cursor CLI**
 
 Delivering real-time audio feedback, alerts, and voice interaction. Built modular for maximum compatibility, it runs entirely local for speed, privacy, and zero additional API cost.
+
+> **Note**: ehAye™ Engine is not affiliated with, endorsed by, or officially connected to any of the AI tools mentioned above. These are independent integrations built for compatibility.
 
 **Audio on demand. Fully local. Zero friction.**
 
@@ -132,19 +134,17 @@ All modules run locally, ensuring:
 
 ## Requirements
 
-- **Node.js** 18+ or Bun runtime
-- **macOS** 10.15+ / **Linux** / **Windows** 10+
-- **RAM**: 512MB minimum
-- **Disk Space**: 100MB
+- **macOS** ARM64 10.15+ (Linux / Windows 10+ coming soon)
+- **Free RAM**: 512MB minimum
+- **Free Disk Space**: 600MB
 
 ## Documentation
 
-Visit [ehaye.io](https://ehaye.io) for comprehensive documentation, tutorials, and examples.
+Visit [https://ehaye.io](https://ehaye.io) for comprehensive documentation, tutorials, and examples.
 
 ## Community
 
 - **GitHub**: [neekware/ehAye-Engine](https://github.com/neekware/ehAye-Engine)
-- **LinkedIn**: [Val Neekman](https://www.linkedin.com/in/neekman/)
 - **YouTube**: [@ehAyeEngine](https://www.youtube.com/@ehAyeEngine)
 
 ## Privacy & Security
@@ -185,3 +185,9 @@ Copyright © 2006-2025 Neekware Inc. All rights reserved.
 **© 2006-2025 Neekware Inc. All rights reserved.**
 
 *Powered by ehAye™ Engine - Give your Artificial Intelligence the voice it deserves.*
+
+---
+
+### Trademarks
+
+Claude Code is a trademark of Anthropic PBC. Gemini Code is a trademark of Google LLC. Codex is a trademark of OpenAI, L.L.C. Grok is a trademark of xAI Corp. Cursor CLI is a trademark of Anysphere Inc. All trademarks and registered trademarks are the property of their respective owners. ehAye™ Engine is not affiliated with, endorsed by, or sponsored by any of these companies.
