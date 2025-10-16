@@ -5,14 +5,16 @@
 [![License](https://img.shields.io/badge/license-Neekware%20Inc-blue.svg)](LICENSE)
 [![GitHub](https://img.shields.io/github/stars/neekware/ehAye-Engine?style=social)](https://github.com/neekware/ehAye-Engine)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="images/ehaye-welcome-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="images/ehaye-welcome.gif">
-  <img alt="ehAye Engine Welcome Screen" src="images/ehaye-welcome.gif">
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/ehaye-welcome-dark.gif">
+    <source media="(prefers-color-scheme: light)" srcset="images/ehaye-welcome.gif">
+    <img alt="ehAye Engine Welcome Screen" src="images/ehaye-welcome.gif" width="90%">
+  </picture>
+</div>
 
 <div align="center">
-  <img src="images/ehaye-dashboard.png" alt="ehAye Engine Dashboard" width="800">
+  <img src="images/ehaye-dashboard.png" alt="ehAye Engine Dashboard" width="90%">
   <p><em>The ehAye™ Engine Dashboard - Your command center for AI voice, vision, and control</em></p>
 </div>
 
