@@ -13,10 +13,6 @@
   </picture>
 </div>
 
-<div align="center">
-  <img src="images/ehaye-dashboard.png" alt="ehAye Engine Dashboard" width="85%">
-  <p><em>The ehAye™ Engine Dashboard - Your command center for AI voice, vision, and control</em></p>
-</div>
 
 ## Overview
 
