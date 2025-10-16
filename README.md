@@ -1,17 +1,15 @@
-# ehAye™ Engine
-
-> Your AI coding assistant's better half
-
-[![License](https://img.shields.io/badge/license-Neekware%20Inc-blue.svg)](LICENSE)
-[![GitHub](https://img.shields.io/github/stars/neekware/ehAye-Engine?style=social)](https://github.com/neekware/ehAye-Engine)
-
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="images/ehaye-welcome-dark.gif">
-    <source media="(prefers-color-scheme: light)" srcset="images/ehaye-welcome.gif">
-    <img alt="ehAye Engine Welcome Screen" src="images/ehaye-welcome.gif" width="85%">
-  </picture>
+
+# ehAye™ Engine
+### Your AI coding assistant's better half
+
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/ehaye-welcome-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="images/ehaye-welcome.gif">
+  <img alt="ehAye Engine Welcome Screen" src="images/ehaye-welcome.gif" width="100%">
+</picture>
 
 
 ## Overview
