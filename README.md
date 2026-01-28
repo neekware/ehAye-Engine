@@ -1,14 +1,16 @@
 <div align="center">
 
+<img src="images/ehaye-logo.png" alt="ehAye Logo" width="150">
+
 # ehAye™ Engine
-### Your AI coding assistant's better half
+### Where Knowledge Takes Wings, Wisdom Finds Voice
 
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="images/ehaye-welcome-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="images/ehaye-welcome.gif">
-  <img alt="ehAye Engine Welcome Screen" src="images/ehaye-welcome.gif" width="100%" style="border-radius: 12px;">
+  <source media="(prefers-color-scheme: dark)" srcset="images/ehaye-welcome-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/ehaye-welcome-light.png">
+  <img alt="ehAye Engine Welcome Screen" src="images/ehaye-welcome-light.png" width="100%" style="border-radius: 12px; border: none; outline: none;">
 </picture>
 
 
@@ -26,7 +28,7 @@ What started as a voice engine for developers who wanted their A.I. to speak int
 >
 > A tool that became a platform, and my coding partner, simply because it needed to exist."
 >
-> — **Val Neekman**, Founder @ Neekware Inc.
+> — **Val Neekman**, CEO & Founder @ Neekware Inc.
 
 ## Modules
 
@@ -34,7 +36,7 @@ The dashboard showcases the complete ehAye™ Engine ecosystem:
 
 - **🎵 AI Audio** - Advanced voice and sound tools powered by ehAye™ Audio
 - **🤖 AI Assistants** - Empower AI coding assistants with ehAye™ Engine
-- **🎨 Creator** - Smart tools for content creation with ehAye™ Creator
+- **🎨 Creator Studio** - AI-powered content creation tools with ehAye™ Creator
 - **📡 Streaming** - Broadcast to multiple platforms with ehAye™ Multicast
 - **⚙️ Settings** - Configure app preferences and fine-tune your experience
 
@@ -53,10 +55,8 @@ Born from the idea that some tools simply need to exist, ehAye™ Engine gives y
 Connect your A.I. assistants directly to sound. ehAye™ Engine integrates seamlessly with tools like:
 
 - **Anthropic's Claude Code**
-- **Gemini Code**
-- **Codex**
-- **Grok**
-- **Cursor CLI**
+- **Cursor**
+- **Windsurf**
 
 Delivering real-time audio feedback, alerts, and voice interaction. Built modular for maximum compatibility, it runs entirely local for speed, privacy, and zero additional API cost.
 
@@ -100,7 +100,17 @@ ehAye™ Engine is designed to integrate seamlessly with your favorite AI coding
 
 ## Integration Examples
 
-ehAye™ Engine works with popular AI coding tools including Claude Code, Gemini Code, Codex, Grok, and Cursor CLI. The modular architecture ensures maximum compatibility while running entirely local for speed, privacy, and zero additional API cost.
+ehAye™ Engine works with popular AI coding tools including Claude Code, Cursor, and Windsurf. The modular architecture ensures maximum compatibility while running entirely local for speed, privacy, and zero additional API cost.
+
+## Built at Scale
+
+ehAye™ Engine is the result of serious engineering effort:
+
+- **1.2M+** lines of code across the platform
+- **Rust + TypeScript** hybrid architecture for performance and safety
+- **Native macOS** app with web-based dashboard
+- **MCP Protocol** implementation for AI assistant integration
+- **Real-time audio** processing with sub-100ms latency
 
 ## Architecture
 
@@ -113,7 +123,7 @@ ehAye™ Engine is built on a modular architecture:
 
 All modules run locally, ensuring:
 - ✅ Maximum privacy
-- ✅ Zero latency
+- ✅ Near zero latency
 - ✅ No additional API costs
 - ✅ Complete offline capability
 
@@ -138,6 +148,7 @@ Visit [https://ehaye.io](https://ehaye.io) for comprehensive documentation, tuto
 
 ## Community
 
+- **X**: [@ehaye_engine](https://x.com/ehaye_engine)
 - **GitHub**: [neekware/ehAye-Engine](https://github.com/neekware/ehAye-Engine)
 - **YouTube**: [@ehAyeEngine](https://www.youtube.com/@ehAyeEngine)
 
@@ -166,7 +177,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ## License
 
-Copyright © 2006-2025 Neekware Inc. All rights reserved.
+Copyright © 2006-2026 Neekware Inc. All rights reserved.
 
 ## Support
 
@@ -176,7 +187,7 @@ Copyright © 2006-2025 Neekware Inc. All rights reserved.
 
 ---
 
-**© 2006-2025 Neekware Inc. All rights reserved.**
+**© 2006-2026 Neekware Inc. All rights reserved.**
 
 *Powered by ehAye™ Engine - Give your Artificial Intelligence the voice it deserves.*
 
@@ -184,4 +195,4 @@ Copyright © 2006-2025 Neekware Inc. All rights reserved.
 
 ### Trademarks
 
-Claude Code is a trademark of Anthropic PBC. Gemini Code is a trademark of Google LLC. Codex is a trademark of OpenAI, L.L.C. Grok is a trademark of xAI Corp. Cursor CLI is a trademark of Anysphere Inc. All trademarks and registered trademarks are the property of their respective owners. ehAye™ Engine is not affiliated with, endorsed by, or sponsored by any of these companies.
+Claude Code is a trademark of Anthropic PBC. Cursor is a trademark of Anysphere Inc. Windsurf is a trademark of Codeium Inc. All trademarks and registered trademarks are the property of their respective owners. ehAye™ Engine is not affiliated with, endorsed by, or sponsored by any of these companies.
