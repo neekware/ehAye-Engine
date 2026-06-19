@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="images/ehaye-logo.png" alt="ehAye Logo" width="150">
-
 # ehAye™ Engine
 ### AI That Develops Talent, Not Eliminates It
 
