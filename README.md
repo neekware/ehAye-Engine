@@ -132,4 +132,4 @@ Copyright © 2006-2026 Neekware Inc. All rights reserved.
 
 ### Trademarks
 
-Claude Code is a trademark of Anthropic PBC. Cursor is a trademark of Anysphere Inc. Windsurf is a trademark of Codeium Inc. All trademarks and registered trademarks are the property of their respective owners. ehAye™ Engine and ehAye™ Dojo are not affiliated with, endorsed by, or sponsored by these companies.
+All trademarks and registered trademarks are the property of their respective owners. Product and company names are used for identification only and do not imply affiliation, endorsement, or sponsorship.
