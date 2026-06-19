@@ -125,7 +125,7 @@ Please use GitHub Issues for public reports. For sensitive security concerns, co
 
 ## Special thanks
 
-Thank you to <kbd>AM</kbd>, <kbd>FR</kbd>, <kbd>LS</kbd>, <kbd>RW</kbd>, and <kbd>DG</kbd> for their contributions, verification time, feedback, and care in helping make Dojo better.
+Thank you to <kbd>AM</kbd>, <kbd>FR</kbd>, <kbd>LS</kbd>, <kbd>RW</kbd>, <kbd>CG</kbd>, and <kbd>DG</kbd> for their contributions, verification time, feedback, and care in helping make Dojo better.
 
 ## Community
 
