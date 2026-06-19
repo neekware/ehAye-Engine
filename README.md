@@ -3,196 +3,133 @@
 <img src="images/ehaye-logo.png" alt="ehAye Logo" width="150">
 
 # ehAye™ Engine
-### Where Knowledge Takes Wings, Wisdom Finds Voice
+### The AI teammate layer for builders who want to move faster with confidence
 
 </div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/ehaye-welcome-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="images/ehaye-welcome-light.png">
-  <img alt="ehAye Engine Welcome Screen" src="images/ehaye-welcome-light.png" width="100%" style="border-radius: 12px; border: none; outline: none;">
+  <img alt="ehAye Engine welcome screen" src="images/ehaye-welcome-light.png" width="100%" style="border-radius: 12px; border: none; outline: none;">
 </picture>
-
 
 ## Overview
 
-**ehAye™ Engine** (pronounced "A.I.") gives your A.I. coding assistants a voice, vision, and control. It unifies sound, sight, and system intelligence into one modular platform, powering real-time interaction across audio, music, and creative tools—with privacy at its core.
+**ehAye™ Engine** is the local-first foundation behind **ehAye™ Dojo**: a hands-on AI coding teammate, mentor, and workflow conductor built for real development work.
 
-What started as a voice engine for developers who wanted their A.I. to speak intelligently has evolved into a comprehensive modular system that brings together Audio, MCP (vision and control), Music, and Creator modules for full-spectrum A.I. expression.
+Dojo is designed to sit beside you while you build. It can explain, edit, verify, preview, transcribe, generate media, coordinate agents, and keep the work moving without forcing you to stitch together a dozen separate tools.
 
-## Why ehAye™ Engine?
+This repository is the public placeholder for community visibility, reviews, issue tracking, bug reports, and product updates while the full product evolves.
 
-> "I built ehAye™ Engine because I wanted my A.I. coding assistants to speak, not just reply on a screen, but sound alive. What began as a small developer tool quickly grew into something bigger, faster, smarter, and too good to keep private.
->
-> ehAye™ Engine gives your A.I. coding assistants a voice, vision, and control. It runs locally, with your privacy in mind, and is built for developers who want a coding partner, not just a tool.
->
-> A tool that became a platform, and my coding partner, simply because it needed to exist."
->
-> — **Val Neekman**, CEO & Founder @ Neekware Inc.
+## What is ehAye Dojo?
 
-## Modules
+**ehAye Dojo** is the human-facing experience powered by ehAye Engine.
 
-The dashboard showcases the complete ehAye™ Engine ecosystem:
+It brings together:
 
-- **🎵 AI Audio** - Advanced voice and sound tools powered by ehAye™ Audio
-- **🤖 AI Assistants** - Empower AI coding assistants with ehAye™ Engine
-- **🎨 Creator Studio** - AI-powered content creation tools with ehAye™ Creator
-- **📡 Streaming** - Broadcast to multiple platforms with ehAye™ Multicast
-- **⚙️ Settings** - Configure app preferences and fine-tune your experience
+- **Coding mentorship** — clear explanations, practical guidance, and hands-on implementation.
+- **Agentic development** — focused agents for investigation, validation, refactoring, and review.
+- **Dual Channel workflow** — two side-by-side Dojo panels that can work independently or coordinate on serious tasks.
+- **Voice-first mentoring** — spoken updates that keep you oriented while the work runs.
+- **Rich tool surfaces** — diagrams, tables, equations, syntax-highlighted code, previews, media inspection, transcription, and more.
+- **Local workflow awareness** — project conventions, validation commands, safe edit boundaries, and careful handling of destructive actions.
 
-## Key Features
+The goal is simple: close the gap between knowing what you want and actually getting it built.
 
-### 🎙️ **What is ehAye™ Engine?**
+## Dual Channel: two Dojos, one workflow
 
-ehAye™ (pronounced "A.I.") started as **ehAye™ Audio**, a voice engine built for developers who wanted their A.I. to speak intelligently. It has since evolved into **ehAye™ Engine**, a modular system that brings together Audio, MCP (vision and control), Music, and Creator modules for full-spectrum A.I. expression.
+Dojo supports a **Dual Channel** workspace: two independent Dojo lanes running side by side.
 
-Born from the idea that some tools simply need to exist, ehAye™ Engine gives your code, agents, and creative systems a voice and presence that feels alive.
+That makes it possible to:
 
-**Give your Artificial Intelligence the voice it deserves.**
+- Split work across independent panels.
+- Ask one lane to review another lane’s work.
+- Compare reasoning from different models or approaches.
+- Keep a primary implementation lane and a secondary verification lane.
+- Use the “Evidence Fist” principle: tools and reproducible evidence beat guesses and confidence.
 
-### 🤖 **A.I. Code Integration**
+This is especially useful for code review, debugging, validation, media workflows, and tasks where a second independent pass can catch what the first missed.
 
-Connect your A.I. assistants directly to sound. ehAye™ Engine integrates seamlessly with tools like:
+## What ehAye Engine powers
 
-- **Anthropic's Claude Code**
-- **Cursor**
-- **Windsurf**
+ehAye Engine provides the local app, tooling, and orchestration layer behind Dojo, including:
 
-Delivering real-time audio feedback, alerts, and voice interaction. Built modular for maximum compatibility, it runs entirely local for speed, privacy, and zero additional API cost.
+- Local project and filesystem workflows.
+- Browser automation and web task support.
+- Media preview, probing, transcription, and generation workflows.
+- Diagrams, tables, equations, and syntax-highlighted output surfaces.
+- Agent delegation and coordinated multi-step execution.
+- Voice status updates for a listening-first development experience.
+- Guardrails for secrets, databases, git history, destructive actions, and shared-state risk.
 
-> **Note**: ehAye™ Engine is not affiliated with, endorsed by, or officially connected to any of the AI tools mentioned above. These are independent integrations built for compatibility.
+## Current status
 
-**Audio on demand. Fully local. Zero friction.**
+This public repository is currently used for:
 
-### 👥 **Dual Voice Support**
+- Product visibility.
+- Public reviews.
+- Bug reports.
+- Feature requests.
+- Feedback from early users and contributors.
+- High-level documentation while the private product codebase continues to move quickly.
 
-Assign distinct voices to different agents, tasks, or events:
+If you find a bug, rough edge, confusing workflow, or missing capability, please open an issue.
 
-- One voice for your A.I. assistant working on your primary task
-- Another for your secondary project
-- Always know who's speaking and why
+## Built for builders
 
-Perfect for parallel workflows, multi-agent orchestration, and real-time development feedback.
+Dojo is for people who want an AI teammate that does more than chat.
 
-### ⚡ **Real-Time Configuration & Privacy**
+It is built to:
 
-Adjust voices, tone, volume, speech rate, and behavior on the fly:
+- Read the relevant context before acting.
+- Make tightly scoped edits.
+- Verify changes with the right level of validation.
+- Explain what changed in plain language.
+- Ask before risky or irreversible operations.
+- Stay useful when the work is messy, incomplete, or frustrating.
 
-- No rebuilds, restarts, or downtime
-- All processing stays private on your system
-- Updates apply instantly through the web dashboard
-- Keep your A.I. responsive and adaptable mid-session
+## Privacy and control
 
-**Control it live. Feel it respond. Tuck it away and keep building.**
+The product is designed around practical local control:
 
-### 🔧 **Easy Management**
+- Local files stay local unless you explicitly use a remote-capable feature.
+- Media workflows use native guarded tools where possible.
+- Dangerous actions require explicit confirmation.
+- Secrets, databases, releases, and destructive operations are treated with extra care.
+- You remain in control of what gets pushed, published, uploaded, or shared.
 
-Control everything with simple CLI commands and an intuitive web interface:
+## Contributing feedback
 
-- Start, stop, and monitor the voice engine effortlessly
-- Built-in process management
-- Designed for developers who want zero-friction control
-- Never leave your workflow
+We welcome:
 
-## Quick Start
+- Bug reports.
+- Reproduction steps.
+- UI and workflow feedback.
+- Documentation fixes.
+- Review notes.
+- Ideas that make Dojo more useful for real builders.
 
-ehAye™ Engine is designed to integrate seamlessly with your favorite AI coding assistants. Simply install, configure your preferences through the intuitive dashboard, and let your AI speak.
+Please use GitHub Issues for public reports. For sensitive security concerns, contact support privately instead of posting secrets or exploit details in an issue.
 
-## Integration Examples
+## Special thanks
 
-ehAye™ Engine works with popular AI coding tools including Claude Code, Cursor, and Windsurf. The modular architecture ensures maximum compatibility while running entirely local for speed, privacy, and zero additional API cost.
-
-## Built at Scale
-
-ehAye™ Engine is the result of serious engineering effort:
-
-- **1.2M+** lines of code across the platform
-- **Rust + TypeScript** hybrid architecture for performance and safety
-- **Native macOS** app with web-based dashboard
-- **MCP Protocol** implementation for AI assistant integration
-- **Real-time audio** processing with sub-100ms latency
-
-## Architecture
-
-ehAye™ Engine is built on a modular architecture:
-
-- **Audio Module**: Real-time voice synthesis and playback
-- **MCP Module**: Model Context Protocol for vision and control
-- **Music Module**: Creative audio generation and manipulation
-- **Creator Module**: Tools for building custom A.I. experiences
-
-All modules run locally, ensuring:
-- ✅ Maximum privacy
-- ✅ Near zero latency
-- ✅ No additional API costs
-- ✅ Complete offline capability
-
-## Use Cases
-
-- **Development Workflow**: Get audio notifications when builds complete, tests pass, or errors occur
-- **Multi-Agent Systems**: Distinguish between different A.I. agents by voice
-- **Accessibility**: Screen-free coding with voice-driven feedback
-- **Creative Coding**: Build interactive audio-visual experiences
-- **Live Streaming**: Real-time A.I. commentary and interaction
-- **Education**: Create interactive learning experiences with A.I. tutors
-
-## Requirements
-
-- **macOS** ARM64 10.15+ (Linux / Windows 10+ coming soon)
-- **Free RAM**: 512MB minimum
-- **Free Disk Space**: 600MB
-
-## Documentation
-
-Visit [https://ehaye.io](https://ehaye.io) for comprehensive documentation, tutorials, and examples.
+Thank you to **AM**, **FR**, **LS**, **RW**, and **DG** for their contributions, verification time, feedback, and care in helping make Dojo better.
 
 ## Community
 
-- **X**: [@ehaye_engine](https://x.com/ehaye_engine)
-- **GitHub**: [neekware/ehAye-Engine](https://github.com/neekware/ehAye-Engine)
-- **YouTube**: [@ehAyeEngine](https://www.youtube.com/@ehAyeEngine)
-
-## Privacy & Security
-
-ehAye™ Engine is built with privacy at its core:
-
-- All voice processing happens locally on your machine
-- No data is sent to external servers
-- No tracking or analytics
-- Open source and auditable
-- You control your data, always
-
-## Roadmap
-
-- [ ] Additional voice models and languages
-- [ ] Plugin system for custom integrations
-- [ ] Mobile companion app
-- [ ] Cloud sync (optional, privacy-preserving)
-- [ ] Advanced emotion and tone controls
-- [ ] Multi-modal A.I. interactions
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+- Website: [https://ehaye.io](https://ehaye.io)
+- X: [@ehaye_engine](https://x.com/ehaye_engine)
+- GitHub: [neekware/ehAye-Engine](https://github.com/neekware/ehAye-Engine)
+- YouTube: [@ehAyeEngine](https://www.youtube.com/@ehAyeEngine)
 
 ## License
 
 Copyright © 2006-2026 Neekware Inc. All rights reserved.
 
-## Support
-
-- 📧 Email: support@ehaye.io
-- 🐛 Issues: [GitHub Issues](https://github.com/neekware/ehAye-Engine/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/neekware/ehAye-Engine/discussions)
-
 ---
 
-**© 2006-2026 Neekware Inc. All rights reserved.**
-
-*Powered by ehAye™ Engine - Give your Artificial Intelligence the voice it deserves.*
-
----
+**Powered by ehAye™ Engine. Built for Dojo.**
 
 ### Trademarks
 
-Claude Code is a trademark of Anthropic PBC. Cursor is a trademark of Anysphere Inc. Windsurf is a trademark of Codeium Inc. All trademarks and registered trademarks are the property of their respective owners. ehAye™ Engine is not affiliated with, endorsed by, or sponsored by any of these companies.
+Claude Code is a trademark of Anthropic PBC. Cursor is a trademark of Anysphere Inc. Windsurf is a trademark of Codeium Inc. All trademarks and registered trademarks are the property of their respective owners. ehAye™ Engine and ehAye™ Dojo are not affiliated with, endorsed by, or sponsored by these companies.
