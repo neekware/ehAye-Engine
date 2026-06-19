@@ -3,7 +3,7 @@
 <img src="images/ehaye-logo.png" alt="ehAye Logo" width="150">
 
 # ehAye™ Engine
-### The AI teammate layer for builders who want to move faster with confidence
+### AI That Develops Talent, Not Eliminates It
 
 </div>
 
