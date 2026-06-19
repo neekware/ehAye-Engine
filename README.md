@@ -48,6 +48,20 @@ That makes it possible to:
 
 This is especially useful for code review, debugging, validation, media workflows, and tasks where a second independent pass can catch what the first missed.
 
+### Lane Assist and peer review
+
+Dual Channel is not just two chat windows. The lanes can coordinate through **Lane Assist**, an intentional peer-review workflow where one Dojo can ask the other Dojo for help.
+
+That unlocks:
+
+- **Ahoy-style handoff** — one lane can request a focused review, investigation, or verification pass from the other lane.
+- **Independent peer review** — the reviewing lane checks the actual artifact, diff, or workflow instead of rubber-stamping a summary.
+- **Evidence-based disagreement** — when lanes disagree, reproducible tool output, tests, logs, previews, and file-level evidence outrank confidence.
+- **Timed collaboration** — a lane can ask for a fast blocking review or a deeper pass, then wait for the peer result before closing the loop.
+- **Owner and Challenger roles** — the implementing lane owns the result; the reviewing lane challenges assumptions and catches what may have been missed.
+
+The result is a development experience that feels closer to working with a senior teammate: one Dojo can build while another verifies, questions, and protects the quality bar.
+
 ## What ehAye Engine powers
 
 ehAye Engine provides the local app, tooling, and orchestration layer behind Dojo, including:
