@@ -1,0 +1,16 @@
+{
+  "name": "ehaye-engine-benchmarks",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Neekware Inc.",
+  "description": "Public, self-contained LLM benchmark suite for ehAye Dojo — fixtures, tasks, prep tools. Run models from this repo so results are not tainted by product source.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "bench:prep": "node tools/benchmark/prep-bughunt.mjs",
+    "bench:usage": "node tools/benchmark/usage-extract.mjs",
+    "bench:list": "node tools/benchmark/list-tasks.mjs"
+  }
+}

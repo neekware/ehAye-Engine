@@ -40,4 +40,4 @@ Please be respectful and constructive in all interactions. We're building a welc
 
 ---
 
-**© 2006-2025 Neekware Inc. All rights reserved.**
+**© 2006-2026 Neekware Inc. All rights reserved.**

@@ -84,8 +84,23 @@ This public repository is currently used for:
 - Feature requests.
 - Feedback from early users and contributors.
 - High-level documentation while the private product codebase continues to move quickly.
+- **Public LLM benchmark suite** — real-task specs, shareable fixtures, and prep tools (see below).
 
 If you find a bug, rough edge, confusing workflow, or missing capability, please open an issue.
+
+## Public LLM benchmarks
+
+To keep model comparisons honest and **untainted**, scored runs should open **this** repository — not a private product monorepo. Models then see only fixtures and task prompts, not product guts.
+
+| Path | What it is |
+| ---- | ---------- |
+| [`benchmarks/`](./benchmarks/) | Suite overview, per-task files (A1…H1), fixtures, score templates |
+| [`tools/benchmark/`](./tools/benchmark/) | `bench:prep` (Suite H bug-hunt clones), usage extract, task list |
+| [`package.json`](./package.json) | `npm run bench:prep` · `bench:usage` · `bench:list` |
+
+Start here: **[benchmarks/README.md](./benchmarks/README.md)**.
+
+Philosophy in one line: fixed rubrics, pinned live answers, identical trees, publish failures, and never score media beauty or mutex luck.
 
 ## Built for builders
 
@@ -137,6 +152,8 @@ Thank you to <kbd>AM</kbd>, <kbd>FR</kbd>, <kbd>LS</kbd>, <kbd>RW</kbd>, <kbd>CG
 ## License
 
 Copyright © 2006-2026 Neekware Inc. All rights reserved.
+
+This repository is the public home for product visibility, issues, and benchmark materials. Benchmark tools and fixtures here are provided as-is for reference and comparison; they do not grant a license to the private ehAye Engine product, and they do not require anyone who reuses the harness for their own benchmarks to open-source their work.
 
 ---
 

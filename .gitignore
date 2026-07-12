@@ -2,8 +2,6 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Thumbnails
 ._*
 
 # Files that might appear in the root of a volume
@@ -21,3 +19,15 @@
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Node
+node_modules/
+
+# Local / throwaway benchmark working state (never commit)
+temp/
+benchmarks/runs/**
+!benchmarks/runs/.gitkeep
+
+# Stripped bug-hunt clones and local extracts
+*.local.json
+.ehaye/
