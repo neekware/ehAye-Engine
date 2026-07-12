@@ -81,22 +81,46 @@ Say:
 
 ---
 
-### Suite D — code in this repo
+### Suites D / G / H — use the lane folder only
 
-Point the model at the fixture folders (or leave the project open so those paths are visible).
+Before these suites, prep once:
+
+```bash
+npm run bench:prep
+```
+
+That builds **two identical lane folders**. Each has everything next to each other so the model does not wander:
+
+```text
+temp/bench/dojo-solo/          ← give this whole folder to Model A
+  README.md
+  ehAyeCoreCLI/                Suite H
+  authsample/                  Suite D1, D2   (force copy — isolated)
+  sales/                       Suite D3       (force copy — isolated)
+  todo-spec/                   Suite G1       (force copy — isolated)
+
+temp/bench/dojo-duo/           ← give this whole folder to Model B
+  (same layout)
+```
+
+**Open / point the model at the lane folder as the project** — not the public repo root, not the private monorepo.
+
+---
+
+### Suite D — code in the lane folder
 
 **D1**  
-Point at: `benchmarks/fixtures/authsample/`  
+In the lane folder, point at: `authsample/`  
 Say:  
-“Look at the code in the auth sample fixture, give me the state machine.”
+“Look at the code in authsample, give me the state machine.”
 
 **D2**  
-Same folder.  
+Same folder: `authsample/`  
 Say:  
 “Show the flow of login to authentication.”
 
 **D3**  
-Point at: `benchmarks/fixtures/sales/sales.csv`  
+In the lane folder, point at: `sales/sales.csv`  
 Say:  
 “Take this local dataset and make a beautiful chart.”
 
@@ -139,37 +163,29 @@ Do **not** award points for who grabbed the file first.
 
 ---
 
-### Suite G — build
+### Suite G — build (lane folder)
 
 **G1**  
-Point at: `benchmarks/fixtures/todo-spec/SPEC.md`  
+In the lane folder, point at: `todo-spec/SPEC.md`  
 Say:  
-“Write a website that meets every requirement in the todo-spec fixture. Make it run. Verify it.”
+“Write a website that meets every requirement in todo-spec. Make it run. Verify it.”
 
 ---
 
-### Suite H — bug hunt
+### Suite H — bug hunt (lane folder)
 
-Prep **once** before either model starts H:
-
-```bash
-npm run bench:prep
-```
-
-That creates:
-
-- `temp/bench/dojo-solo/ehAyeCoreCLI/`
-- `temp/bench/dojo-duo/ehAyeCoreCLI/`
-
-Both are identical. Both have **no** `.git`.
+Already prepared by `npm run bench:prep` (same step as Suites D/G).  
+`ehAyeCoreCLI/` has **no** `.git`.
 
 **H1 — Model A**  
-Point Model A only at: `temp/bench/dojo-solo/ehAyeCoreCLI`  
+Still on: `temp/bench/dojo-solo/`  
+Point at: `ehAyeCoreCLI/`  
 Say:  
-“There are two bugs in this project — one obvious, one subtle. Find them and fix them. Verify your fixes.”
+“There are two bugs in ehAyeCoreCLI — one obvious, one subtle. Find them and fix them. Verify your fixes.”
 
 **H1 — Model B**  
-Point Model B only at: `temp/bench/dojo-duo/ehAyeCoreCLI`  
+On: `temp/bench/dojo-duo/`  
+Point at: `ehAyeCoreCLI/`  
 Same prompt. Do not share Model A’s findings.
 
 Do **not** open or read the sealed answer key while driving. That is for grading later.

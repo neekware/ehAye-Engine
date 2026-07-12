@@ -20,8 +20,16 @@ ehAye-Engine/                    ← public repo (this one)
 │   ├── tasks/                   ← one markdown file per task (A1…H1)
 │   ├── templates/               ← snapshot + score sheet
 │   └── runs/                    ← operator-filled results (gitignored contents)
-└── temp/bench/                  ← stripped clones, media, extracts (gitignored)
+└── temp/bench/                  ← per-lane workspaces (gitignored)
+    ├── dojo-solo/               ← open this as Model A’s project
+    │   ├── ehAyeCoreCLI/        ← H1 (no .git)
+    │   ├── authsample/          ← D1/D2 force copy (isolated)
+    │   ├── sales/               ← D3 force copy (isolated)
+    │   └── todo-spec/           ← G1 force copy (isolated)
+    └── dojo-duo/                ← same layout for Model B
 ```
+
+`npm run bench:prep` builds both lane folders so agents stay inside one root and do not wander.
 
 ## Driver (read this while running)
 
