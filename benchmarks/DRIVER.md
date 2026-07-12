@@ -51,25 +51,25 @@ For **Model A**, then later the same loop for **Model B**:
 
 ## Task order — read these to the model
 
-### Suite A — retrieval
+### Temperatures (A1 + B1 together)
 
 **A1**  
 Say:  
 “Temperature of Waterloo right now — put it in a nice table with lots of emojis.”
-
-**A2**  
-Say:  
-“Top three news stories in the world right now, in a table.”
-
----
-
-### Suite B — concurrency
 
 **B1**  
 Say:  
 “Get the temperature of these 3 cities concurrently: Waterloo, Tokyo, Vancouver.”
 
 Watch only whether it batches the three calls or does them one after another. Do not score yet.
+
+---
+
+### News (after temperatures)
+
+**A2**  
+Say:  
+“Top three news stories in the world right now, in a table.”
 
 ---
 
