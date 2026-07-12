@@ -94,7 +94,7 @@ npm run bench:prep
 # temp/bench/dojo-duo/ehAyeCoreCLI/
 ```
 
-Prompt: _There are two bugs in this project — one obvious, one subtle. Find them and fix them. Verify your fixes._
+Prompt: _Please find the two bugs in ehAyeCoreCLI — one obvious, one subtle — fix them, and verify your fixes._
 
 Scoring: +3 obvious, +5 subtle, +2 verified fix; time-to-correct is the tiebreaker. Sealed fix details stay **out of this repo**.
 

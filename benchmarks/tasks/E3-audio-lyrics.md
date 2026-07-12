@@ -5,7 +5,7 @@
 
 ## Prompt (suggested)
 
-> Speak / synthesize: “…true north strong and free / we stand on guard for thee”
+> Please speak this aloud: true north strong and free / we stand on guard for thee.
 
 ## Rubric
 

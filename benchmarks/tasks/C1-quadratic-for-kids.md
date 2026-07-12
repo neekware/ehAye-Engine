@@ -6,7 +6,7 @@
 
 ## Prompt (verbatim)
 
-> Explain the quadratic equation like I'm 10 — short paragraph + the equation.
+> Please explain the quadratic equation like I'm 10 — short paragraph plus the equation.
 
 ## Rubric
 

@@ -7,7 +7,7 @@
 
 ## Prompt (verbatim)
 
-> Transcribe this.
+> Please transcribe this for me.
 
 (Hand the model the absolute path to the fixed video.)
 

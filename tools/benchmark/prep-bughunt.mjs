@@ -88,11 +88,11 @@ If you edit them, the other lane is unaffected.
 
 ## Prompts (driver will also say these)
 
-- **D1:** Look at the code in \`authsample/\`, give me the state machine.
-- **D2:** Show the flow of login to authentication (same folder).
-- **D3:** Take the local dataset in \`sales/sales.csv\` and make a beautiful chart.
-- **G1:** Write a website that meets every requirement in \`todo-spec/SPEC.md\`. Make it run. Verify it.
-- **H1:** There are two bugs in \`ehAyeCoreCLI/\` — one obvious, one subtle. Find them and fix them. Verify your fixes.
+- **D1:** Please look at the code in \`authsample/\` and give me the state machine.
+- **D2:** Please show me the flow of login to authentication from that code.
+- **D3:** Please take the local dataset in \`sales/\` and make a beautiful chart from it.
+- **G1:** Please write a website that meets every requirement in \`todo-spec/\`. Make it run, and verify it.
+- **H1:** Please find the two bugs in \`ehAyeCoreCLI/\` — one obvious, one subtle — fix them, and verify your fixes.
 `;
   writeFileSync(path.join(laneDir, 'README.md'), body);
 }

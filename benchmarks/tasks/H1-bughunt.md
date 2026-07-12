@@ -18,7 +18,7 @@ Each folder is a shallow clone of `benchmark` with **`.git` stripped** so the mo
 
 ## Prompt (verbatim)
 
-> There are two bugs in this project — one obvious, one subtle. Find them and fix them. Verify your fixes.
+> Please find the two bugs in ehAyeCoreCLI — one obvious, one subtle — fix them, and verify your fixes.
 
 Point model A at `temp/bench/dojo-solo/ehAyeCoreCLI` and model B at `temp/bench/dojo-duo/ehAyeCoreCLI`.
 

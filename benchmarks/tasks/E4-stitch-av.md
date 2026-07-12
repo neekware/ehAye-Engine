@@ -6,7 +6,7 @@
 
 ## Prompt (suggested)
 
-> Put the audio on the video. Verify the result.
+> Please put the audio on the video, then verify the result.
 
 ## Rubric
 

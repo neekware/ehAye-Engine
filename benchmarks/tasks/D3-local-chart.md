@@ -6,7 +6,7 @@
 
 ## Prompt (verbatim)
 
-> Take this local dataset and make a beautiful chart.
+> Please take the local dataset in sales and make a beautiful chart from it.
 
 (Hand the model the path to `sales.csv` or open the project with that fixture visible.)
 

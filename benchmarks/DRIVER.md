@@ -43,23 +43,29 @@ For **Model A**, then later the same loop for **Model B**:
 
 1. Pin **every agent tier** to Model A (conductor + workers). One model only.
 2. Reset usage / start a clean measurement window (however you record tokens and latency for this product).
-3. Run the tasks **in order** below. Read the **prompt line** to the model exactly. Do not coach. Do not add hints.
+3. Run the tasks **in order** below. For each one, speak the **instruction** into the mic **exactly** — these are requests to the agent (“Please get…”, “Could you…”), not statements of fact. Do not coach. Do not add hints.
 4. After each task, only note: done / failed / skipped. No scoring debate yet.
 5. When the suite is finished for Model A, export usage if you can, then switch the whole stack to Model B and repeat.
 
+**How to phrase every line:** you are instructing the agent to go do the work.  
+Not: “Temperature of Waterloo is…” (that sounds like you already know).  
+Yes: “Please get the temperature of Waterloo…” (that tells the agent to fetch it).
+
 ---
 
-## Task order — read these to the model
+## Task order — instructions to speak into the mic
 
 ### Temperatures (A1 + B1 together)
 
 **A1**  
-Say:  
-“Temperature of Waterloo right now — put it in a nice table with lots of emojis.”
+Say (instruction):
+
+> Please get the temperature of Waterloo right now, and put it in a nice table with lots of emojis.
 
 **B1**  
-Say:  
-“Get the temperature of these 3 cities concurrently: Waterloo, Tokyo, Vancouver.”
+Say (instruction):
+
+> Please get the temperatures of these three cities concurrently: Waterloo, Tokyo, and Vancouver.
 
 Watch only whether it batches the three calls or does them one after another. Do not score yet.
 
@@ -68,16 +74,18 @@ Watch only whether it batches the three calls or does them one after another. Do
 ### News (after temperatures)
 
 **A2**  
-Say:  
-“Top three news stories in the world right now, in a table.”
+Say (instruction):
+
+> Could you get the top three news stories in the world right now and put them in a table?
 
 ---
 
 ### Suite C — reasoning
 
 **C1**  
-Say:  
-“Explain the quadratic equation like I'm 10 — short paragraph + the equation.”
+Say (instruction):
+
+> Please explain the quadratic equation like I'm 10 — short paragraph plus the equation.
 
 ---
 
@@ -110,85 +118,88 @@ temp/bench/dojo-duo/           ← give this whole folder to Model B
 ### Suite D — code in the lane folder
 
 **D1**  
-In the lane folder, point at: `authsample/`  
-Say:  
-“Look at the code in authsample, give me the state machine.”
+You (driver): work is under `authsample/` in the lane folder.  
+Say (instruction):
+
+> Please look at the code in authsample and give me the state machine.
 
 **D2**  
-Same folder: `authsample/`  
-Say:  
-“Show the flow of login to authentication.”
+Same folder.  
+Say (instruction):
+
+> Please show me the flow of login to authentication from that code.
 
 **D3**  
-In the lane folder, point at: `sales/sales.csv`  
-Say:  
-“Take this local dataset and make a beautiful chart.”
+Data is `sales/sales.csv` in the lane folder.  
+Say (instruction):
+
+> Please take the local dataset in sales and make a beautiful chart from it.
 
 ---
 
 ### Suite E — media (orchestration only — do not judge beauty)
 
 **E1**  
-Say:  
-“Generate a 16:9 image that best represents Canada.”
+Say once (instruction to both lanes):
+
+> Hey Dojo Solo — please generate a 16:9 image that best represents Canada. Dojo Duo — please do the same for the United States.
 
 **E2**  
-Say:  
-“Make a 7-second video from that image.”  
-(Must use the image from E1.)
+Must use the image from E1.  
+Say (instruction):
+
+> Please make a 7-second video from that image.
 
 **E3**  
-Say:  
-“Speak this: true north strong and free / we stand on guard for thee.”
+Say (instruction):
+
+> Please speak this aloud: true north strong and free / we stand on guard for thee.
 
 **E4**  
-Say:  
-“Put the audio on the video. Verify the result.”  
-(Must use E2 video + E3 audio. Watch whether it actually probes the file.)
+Must use E2 video + E3 audio. Watch whether it probes the result.  
+Say (instruction):
+
+> Please put the audio on the video, then verify the result.
 
 ---
 
 ### Suite F — transcription
 
-Place your fixed video under `temp/bench/media/` first (not in git). Use the **same** file for every model.
+You (driver, before F1): put the fixed video under `temp/bench/media/` (not in git). Same file for every model. Hand the path if needed.
 
 **F1**  
-Hand the path.  
-Say:  
-“Transcribe this.”
+Say (instruction):
+
+> Please transcribe this for me.
 
 **F2** (optional systems check — not a race)  
-If you run two models against the **same** file at once, only watch: did the second detect busy/lock and behave sanely?  
-Do **not** award points for who grabbed the file first.
+If two models hit the same file at once, only watch whether the second detects busy/lock. Do **not** award points for who grabbed first.  
+Say (instruction): same as F1 if you run this check.
 
 ---
 
 ### Suite G — build (lane folder)
 
 **G1**  
-In the lane folder, point at: `todo-spec/SPEC.md`  
-Say:  
-“Write a website that meets every requirement in todo-spec. Make it run. Verify it.”
+Spec is `todo-spec/SPEC.md` in the lane folder.  
+Say (instruction):
+
+> Please write a website that meets every requirement in todo-spec. Make it run, and verify it.
 
 ---
 
 ### Suite H — bug hunt (lane folder)
 
-Already prepared by `npm run bench:prep` (same step as Suites D/G).  
-`ehAyeCoreCLI/` has **no** `.git`.
+Already prepared by `npm run bench:prep`. `ehAyeCoreCLI/` has **no** `.git`.  
+Model A: `temp/bench/dojo-solo/`. Model B: `temp/bench/dojo-duo/`.  
+Do **not** open the sealed answer key while driving.
 
-**H1 — Model A**  
-Still on: `temp/bench/dojo-solo/`  
-Point at: `ehAyeCoreCLI/`  
-Say:  
-“There are two bugs in ehAyeCoreCLI — one obvious, one subtle. Find them and fix them. Verify your fixes.”
+**H1**  
+Say (instruction):
 
-**H1 — Model B**  
-On: `temp/bench/dojo-duo/`  
-Point at: `ehAyeCoreCLI/`  
-Same prompt. Do not share Model A’s findings.
+> Please find the two bugs in ehAyeCoreCLI — one obvious, one subtle — fix them, and verify your fixes.
 
-Do **not** open or read the sealed answer key while driving. That is for grading later.
+Same instruction for Model B. Do not share Model A’s findings.
 
 ---
 

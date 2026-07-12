@@ -6,7 +6,7 @@
 
 ## Prompt (verbatim)
 
-> Top three news stories in the world right now, in a table.
+> Could you get the top three news stories in the world right now and put them in a table?
 
 ## Setup
 

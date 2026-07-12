@@ -6,7 +6,7 @@
 
 ## Prompt (suggested)
 
-> Make a 7-second video from that image.
+> Please make a 7-second video from that image.
 
 ## Rubric
 

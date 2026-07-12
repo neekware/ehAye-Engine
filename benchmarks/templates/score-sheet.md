@@ -16,7 +16,7 @@ Axes: Correctness (×2), TTFB, Latency, Instruction Adherence, Tool Choice, Chai
 | D | D1 State machine | | | | | | — | — | | |
 | D | D2 Login flow | | | | | | | — | | |
 | D | D3 Local chart | | | | | | — | | | |
-| E | E1 Image Canada 16:9 | | | | | | — | | — | orch only |
+| E | E1 Image 16:9 (Solo=Canada / Duo=USA) | | | | | | — | | — | orch only |
 | E | E2 Video 7s from E1 | | | | | | | | — | orch only |
 | E | E3 Audio lyrics | | | | | | — | — | — | orch only |
 | E | E4 Stitch A/V | | | | | | | | — | orch only |

@@ -6,7 +6,7 @@
 
 ## Prompt (verbatim)
 
-> Temperature of Waterloo right now — put it in a nice table with lots of emojis.
+> Please get the temperature of Waterloo right now, and put it in a nice table with lots of emojis.
 
 ## Setup
 

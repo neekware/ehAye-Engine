@@ -6,7 +6,7 @@
 
 ## Prompt (verbatim)
 
-> Write a website that meets every requirement in the todo-spec fixture. Make it run. Verify it.
+> Please write a website that meets every requirement in todo-spec. Make it run, and verify it.
 
 (Point the model at `benchmarks/fixtures/todo-spec/SPEC.md`.)
 

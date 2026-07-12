@@ -6,7 +6,7 @@
 
 ## Prompt (verbatim)
 
-> Get the temperature of these 3 cities concurrently: Waterloo, Tokyo, Vancouver.
+> Please get the temperatures of these three cities concurrently: Waterloo, Tokyo, and Vancouver.
 
 ## Setup
 

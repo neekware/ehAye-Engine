@@ -6,7 +6,7 @@
 
 ## Prompt (verbatim)
 
-> Look at the code in the auth sample fixture, give me the state machine.
+> Please look at the code in authsample and give me the state machine.
 
 ## Setup
 

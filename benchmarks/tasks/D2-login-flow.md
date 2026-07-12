@@ -6,7 +6,7 @@
 
 ## Prompt (verbatim)
 
-> Show the flow of login to authentication.
+> Please show me the flow of login to authentication from that code.
 
 ## Setup
 
