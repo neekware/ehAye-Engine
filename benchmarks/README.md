@@ -23,6 +23,10 @@ ehAye-Engine/                    ← public repo (this one)
 └── temp/bench/                  ← stripped clones, media, extracts (gitignored)
 ```
 
+## Driver (read this while running)
+
+**[DRIVER.md](./DRIVER.md)** — spoken/read-aloud checklist: what to say, which command, which folder. Drive first; score later.
+
 ## Quick start
 
 ```bash
