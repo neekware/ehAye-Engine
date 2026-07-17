@@ -147,7 +147,7 @@ Thank you to <kbd>AM</kbd>, <kbd>FR</kbd>, <kbd>LS</kbd>, <kbd>RW</kbd>, <kbd>CG
 ## Community
 
 - Website: [https://ehaye.io](https://ehaye.io)
-- X: [@ehaye_engine](https://x.com/ehaye_engine)
+- X: [@dojoworkspace](https://x.com/dojoworkspace)
 - GitHub: [neekware/DojoWorkspace](https://github.com/neekware/DojoWorkspace)
 - YouTube: [@DojoWorkspace](https://www.youtube.com/@DojoWorkspace)
 
