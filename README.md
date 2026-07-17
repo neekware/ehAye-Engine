@@ -8,7 +8,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/ehaye-welcome-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="images/ehaye-welcome-light.png">
-  <img alt="ehAye Engine welcome screen" src="images/ehaye-welcome-light.png" width="100%" style="border-radius: 12px; border: none; outline: none;">
+  <img alt="Dojo Workspace welcome screen" src="images/ehaye-welcome-light.png" width="100%" style="border-radius: 12px; border: none; outline: none;">
 </picture>
 
 ## Overview
@@ -146,8 +146,8 @@ Thank you to <kbd>AM</kbd>, <kbd>FR</kbd>, <kbd>LS</kbd>, <kbd>RW</kbd>, <kbd>CG
 
 - Website: [https://ehaye.io](https://ehaye.io)
 - X: [@ehaye_engine](https://x.com/ehaye_engine)
-- GitHub: [neekware/ehAye-Engine](https://github.com/neekware/ehAye-Engine)
-- YouTube: [@ehAyeEngine](https://www.youtube.com/@ehAyeEngine)
+- GitHub: [neekware/DojoWorkspace](https://github.com/neekware/DojoWorkspace)
+- YouTube: [@DojoWorkspace](https://www.youtube.com/@DojoWorkspace)
 
 ## License
 

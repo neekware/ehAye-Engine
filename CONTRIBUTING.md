@@ -8,7 +8,7 @@ Thank you for your interest in contributing to ehAye™ Engine! We appreciate yo
 
 If you've found a bug, please help us by:
 
-1. **Check existing issues** - Search the [issue tracker](https://github.com/neekware/ehAye-Engine/issues) to see if the bug has already been reported
+1. **Check existing issues** - Search the [issue tracker](https://github.com/neekware/DojoWorkspace/issues) to see if the bug has already been reported
 2. **Create a detailed bug report** - If it's a new issue, open a new issue with:
    - A clear, descriptive title
    - Steps to reproduce the problem
@@ -20,7 +20,7 @@ If you've found a bug, please help us by:
 
 Have an idea to make ehAye™ Engine better? We'd love to hear it!
 
-1. **Check existing feature requests** - Browse the [issue tracker](https://github.com/neekware/ehAye-Engine/issues) for similar requests
+1. **Check existing feature requests** - Browse the [issue tracker](https://github.com/neekware/DojoWorkspace/issues) for similar requests
 2. **Submit a feature request** - Open a new issue with:
    - A clear description of the feature
    - The problem it solves or value it adds
@@ -31,7 +31,7 @@ Have an idea to make ehAye™ Engine better? We'd love to hear it!
 
 For questions, ideas, or general discussions about ehAye™ Engine:
 
-- **Discussions** - Use [GitHub Discussions](https://github.com/neekware/ehAye-Engine/discussions) for open-ended conversations
+- **Discussions** - Use [GitHub Discussions](https://github.com/neekware/DojoWorkspace/discussions) for open-ended conversations
 - **Support** - Email support@ehaye.io for support inquiries
 
 ## Code of Conduct
