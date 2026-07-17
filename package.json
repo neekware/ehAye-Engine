@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "Neekware Inc.",
-  "description": "Public, self-contained LLM benchmark suite for ehAye Dojo — fixtures, tasks, prep tools. Run models from this repo so results are not tainted by product source.",
+  "description": "Public, self-contained LLM benchmark suite for Dojo Workspace — fixtures, tasks, and prep tools. Run models from this repo so results are not tainted by private product source.",
   "type": "module",
   "engines": {
     "node": ">=22"

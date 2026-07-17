@@ -1,4 +1,4 @@
-# ehAye Dojo — Public LLM Model Benchmark Suite
+# Dojo Workspace — Public LLM Model Benchmark Suite
 
 > **Philosophy:** Benchmark how people _actually_ use models — real tasks, real tools, real failure modes. No cherry-picked prompts, no pre-baked winner. Every task has a **fixed rubric**, a **pinned expected answer** (where applicable), and **identical starting conditions**. A number you can't defend is theater.
 

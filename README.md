@@ -1,42 +1,44 @@
 <div align="center">
 
-# ehAye™ Engine
-### AI That Develops Talent, Not Eliminates It
+# Dojo Workspace
+### by ehAye™
+
+**AI That Develops Talent, Not Eliminates It**
 
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="images/ehaye-welcome-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="images/ehaye-welcome-light.png">
-  <img alt="Dojo Workspace welcome screen" src="images/ehaye-welcome-light.png" width="100%" style="border-radius: 12px; border: none; outline: none;">
+  <source media="(prefers-color-scheme: dark)" srcset="images/dojo-workspace-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/dojo-workspace-light.png">
+  <img alt="Dojo Workspace welcome screen" src="images/dojo-workspace-light.png" width="100%" style="border-radius: 12px; border: none; outline: none;">
 </picture>
 
 ## Overview
 
-**ehAye™ Engine** is the local-first foundation behind **ehAye™ Dojo**: a hands-on AI coding teammate, mentor, and workflow conductor built for real development work.
+**Dojo Workspace by ehAye™** is a local-first environment for working with Dojo: a hands-on AI teammate, mentor, and workflow conductor built for real work.
 
-Dojo is designed to sit beside you while you build. It can explain, edit, verify, preview, transcribe, generate media, coordinate agents, and keep the work moving without forcing you to stitch together a dozen separate tools.
+Dojo is designed to sit beside you while you build and create. It can explain, edit, verify, preview, research, transcribe, generate media, coordinate agents, and keep the work moving without forcing you to stitch together a dozen separate tools.
 
 This repository is the public placeholder for community visibility, reviews, issue tracking, bug reports, and product updates while the full product evolves.
 
-## What is ehAye Dojo?
+## What is Dojo?
 
-**ehAye Dojo** is the human-facing experience powered by ehAye Engine.
+**Dojo** is the AI teammate and mentor inside Dojo Workspace.
 
 It brings together:
 
 - **Coding mentorship** — clear explanations, practical guidance, and hands-on implementation.
 - **Agentic development** — focused agents for investigation, validation, refactoring, and review.
-- **Dual Channel workflow** — two side-by-side Dojo panels that can work independently or coordinate on serious tasks.
+- **Solo and Duo lanes** — work in one focused Dojo lane or coordinate two side-by-side lanes for serious tasks.
 - **Voice-first mentoring** — spoken updates that keep you oriented while the work runs.
 - **Rich tool surfaces** — diagrams, tables, equations, syntax-highlighted code, previews, media inspection, transcription, and more.
 - **Local workflow awareness** — project conventions, validation commands, safe edit boundaries, and careful handling of destructive actions.
 
 The goal is simple: close the gap between knowing what you want and actually getting it built.
 
-## Dual Channel: two Dojos, one workflow
+## Dojo Solo and Duo: one or two lanes
 
-Dojo supports a **Dual Channel** workspace: two independent Dojo lanes running side by side.
+Dojo Workspace supports **Solo and Duo lanes**: work in one focused lane or use two independent Dojo lanes side by side.
 
 That makes it possible to:
 
@@ -50,7 +52,7 @@ This is especially useful for code review, debugging, validation, media workflow
 
 ### Lane Assist and peer review
 
-Dual Channel is not just two chat windows. The lanes can coordinate through **Lane Assist**, an intentional peer-review workflow where one Dojo can ask the other Dojo for help.
+Duo is not just two chat windows. The lanes can coordinate through **Lane Assist**, an intentional peer-review workflow where one Dojo can ask the other Dojo for help.
 
 That unlocks:
 
@@ -62,9 +64,9 @@ That unlocks:
 
 The result is a development experience that feels closer to working with a senior teammate: one Dojo can build while another verifies, questions, and protects the quality bar.
 
-## What ehAye Engine powers
+## What Dojo Workspace provides
 
-ehAye Engine provides the local app, tooling, and orchestration layer behind Dojo, including:
+Dojo Workspace provides the local app, tooling, and orchestration layer for Dojo, including:
 
 - Local project and filesystem workflows.
 - Browser automation and web task support.
@@ -153,11 +155,11 @@ Thank you to <kbd>AM</kbd>, <kbd>FR</kbd>, <kbd>LS</kbd>, <kbd>RW</kbd>, <kbd>CG
 
 Copyright © 2006-2026 Neekware Inc. All rights reserved.
 
-This repository is the public home for product visibility, issues, and benchmark materials. Benchmark tools and fixtures here are provided as-is for reference and comparison; they do not grant a license to the private ehAye Engine product, and they do not require anyone who reuses the harness for their own benchmarks to open-source their work.
+This repository is the public home for product visibility, issues, and benchmark materials. Benchmark tools and fixtures here are provided as-is for reference and comparison; they do not grant a license to the private Dojo Workspace product, and they do not require anyone who reuses the harness for their own benchmarks to open-source their work.
 
 ---
 
-**Powered by ehAye™ Engine. Built for Dojo.**
+**Powered by ehAye™. Built for people who build and create.**
 
 ### Trademarks
 

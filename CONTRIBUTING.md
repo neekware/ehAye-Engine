@@ -1,6 +1,6 @@
-# Contributing to ehAye™ Engine
+# Contributing to Dojo Workspace
 
-Thank you for your interest in contributing to ehAye™ Engine! We appreciate your support and welcome your involvement.
+Thank you for your interest in contributing to Dojo Workspace! We appreciate your support and welcome your involvement.
 
 ## How to Contribute
 
@@ -18,7 +18,7 @@ If you've found a bug, please help us by:
 
 ### Requesting Features
 
-Have an idea to make ehAye™ Engine better? We'd love to hear it!
+Have an idea to make Dojo Workspace better? We'd love to hear it!
 
 1. **Check existing feature requests** - Browse the [issue tracker](https://github.com/neekware/DojoWorkspace/issues) for similar requests
 2. **Submit a feature request** - Open a new issue with:
@@ -29,7 +29,7 @@ Have an idea to make ehAye™ Engine better? We'd love to hear it!
 
 ### Questions and Discussions
 
-For questions, ideas, or general discussions about ehAye™ Engine:
+For questions, ideas, or general discussions about Dojo Workspace:
 
 - **Discussions** - Use [GitHub Discussions](https://github.com/neekware/DojoWorkspace/discussions) for open-ended conversations
 - **Support** - Email support@ehaye.io for support inquiries
