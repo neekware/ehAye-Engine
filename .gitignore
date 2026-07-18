@@ -30,4 +30,3 @@ benchmarks/runs/**
 
 # Stripped bug-hunt clones and local extracts
 *.local.json
-.ehaye/

@@ -2,7 +2,7 @@
   "run_id": "2026-07-12-model-x-vs-y",
   "pinned_at": "2026-07-12T16:00:00Z",
   "operator": "your-name",
-  "harness_repo": "neekware/ehAye-Engine",
+  "harness_repo": "neekware/DojoWorkspace",
   "harness_commit": "REPLACE_WITH_GIT_SHA",
   "models": {
     "primary": {
@@ -38,7 +38,7 @@
     "authsample": "benchmarks/fixtures/authsample",
     "sales_csv": "benchmarks/fixtures/sales/sales.csv",
     "todo_spec": "benchmarks/fixtures/todo-spec/SPEC.md",
-    "bughunt_prep": "npm run bench:prep → temp/bench/{dojo-solo,dojo-duo}/ehAyeCoreCLI",
+    "bughunt_prep": "npm run bench:prep → temp/bench/{dojo-solo,dojo-duo}/benchmark-target",
     "transcribe_media": "temp/bench/media/REPLACE.mp4 (not in git)"
   },
   "notes": "Fill weather/news at run start. Never commit sealed answer keys here."

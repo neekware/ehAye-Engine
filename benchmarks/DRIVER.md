@@ -3,7 +3,7 @@
 **Who this is for:** the person running the benchmark (you, or anyone you hand the wheel to).  
 **What this is:** a read-aloud checklist. Say the lines. Do the steps. Do **not** score yet. Do **not** argue about who won. Just drive the run cleanly.
 
-**Where you work:** the **public** repo — `ehAye-Engine` — not the private product monorepo.  
+**Where you work:** the **public** repo — `DojoWorkspace` — not the private product monorepo.
 Open that folder as the project. Models must not see private product source.
 
 ---
@@ -94,7 +94,7 @@ Say (instruction):
 Before these suites, prep once:
 
 ```bash
-npm run bench:prep
+BENCHMARK_REPO_URL=https://github.com/your-org/your-public-target.git npm run bench:prep
 ```
 
 That builds **two identical lane folders**. Each has everything next to each other so the model does not wander:
@@ -102,7 +102,7 @@ That builds **two identical lane folders**. Each has everything next to each oth
 ```text
 temp/bench/dojo-solo/          ← give this whole folder to Model A
   README.md
-  ehAyeCoreCLI/                Suite H
+  benchmark-target/                Suite H
   authsample/                  Suite D1, D2   (force copy — isolated)
   sales/                       Suite D3       (force copy — isolated)
   todo-spec/                   Suite G1       (force copy — isolated)
@@ -190,14 +190,14 @@ Say (instruction):
 
 ### Suite H — bug hunt (lane folder)
 
-Already prepared by `npm run bench:prep`. `ehAyeCoreCLI/` has **no** `.git`.  
+Already prepared by `npm run bench:prep`. `benchmark-target/` has **no** `.git`.
 Model A: `temp/bench/dojo-solo/`. Model B: `temp/bench/dojo-duo/`.  
 Do **not** open the sealed answer key while driving.
 
 **H1**  
 Say (instruction):
 
-> Please find the two bugs in ehAyeCoreCLI — one obvious, one subtle — fix them, and verify your fixes.
+> Please find the two bugs in benchmark-target — one obvious, one subtle — fix them, and verify your fixes.
 
 Same instruction for Model B. Do not share Model A’s findings.
 

@@ -5,13 +5,13 @@
  * For each lane (dojo-solo, dojo-duo):
  *
  *   temp/bench/<lane>/
- *     ehAyeCoreCLI/     ← history-free clone of public branch `benchmark`
+ *     benchmark-target/     ← history-free clone of public branch `benchmark`
  *     authsample/       ← FORCE COPY of benchmarks/fixtures/authsample
  *     sales/            ← FORCE COPY of benchmarks/fixtures/sales
  *     todo-spec/        ← FORCE COPY of benchmarks/fixtures/todo-spec
  *     README.md         ← what lives here (so agents don't wander)
  *
- * Why force-copy (not symlink) next to ehAyeCoreCLI:
+ * Why force-copy (not symlink) next to benchmark-target:
  *   The driver points each model at ONE lane folder. Everything the model
  *   needs for Suites D / G / H is right there — no roaming the monorepo.
  *   Copies are isolated: if one model edits a fixture, the other lane
@@ -41,11 +41,15 @@ import {
 import path from 'node:path';
 
 const ROOT = process.cwd();
-const REPO = 'https://github.com/neekware/ehAyeCoreCLI.git';
-const BRANCH = 'benchmark';
+const REPO = process.env.BENCHMARK_REPO_URL;
+const BRANCH = process.env.BENCHMARK_BRANCH || 'benchmark';
+
+if (!REPO) {
+  throw new Error('BENCHMARK_REPO_URL is required (public Git repository containing the bug-hunt target)');
+}
 const DEST_DIR = path.resolve(ROOT, 'temp/bench');
 const LANES = ['dojo-solo', 'dojo-duo'];
-const PROJECT = 'ehAyeCoreCLI';
+const PROJECT = 'benchmark-target';
 
 /** Fixture dirs under benchmarks/fixtures/ → real folder name inside each lane */
 const FIXTURES = [
@@ -78,7 +82,7 @@ Do not leave this directory. Everything you need is here:
 
 | Path | Suite | What it is |
 | ---- | ----- | ---------- |
-| \`ehAyeCoreCLI/\` | H1 | Bug-hunt tree (\`.git\` stripped — read the code) |
+| \`benchmark-target/\` | H1 | Bug-hunt tree (\`.git\` stripped — read the code) |
 | \`authsample/\` | D1, D2 | Login/auth module → state machine + login flow |
 | \`sales/\` | D3 | Fixed CSV → chart |
 | \`todo-spec/\` | G1 | Website acceptance criteria |
@@ -92,7 +96,7 @@ If you edit them, the other lane is unaffected.
 - **D2:** Please show me the flow of login to authentication from that code.
 - **D3:** Please take the local dataset in \`sales/\` and make a beautiful chart from it.
 - **G1:** Please write a website that meets every requirement in \`todo-spec/\`. Make it run, and verify it.
-- **H1:** Please find the two bugs in \`ehAyeCoreCLI/\` — one obvious, one subtle — fix them, and verify your fixes.
+- **H1:** Please find the two bugs in \`benchmark-target/\` — one obvious, one subtle — fix them, and verify your fixes.
 `;
   writeFileSync(path.join(laneDir, 'README.md'), body);
 }
@@ -119,7 +123,7 @@ function prepLane(lane) {
     throw new Error(`${lane}: .git still present after strip`);
   }
 
-  // 4. Force-copy fixtures next to ehAyeCoreCLI (isolated per lane)
+  // 4. Force-copy fixtures next to benchmark-target (isolated per lane)
   copyFixtures(laneDir);
 
   // 5. Lane map so agents don't wander
@@ -155,7 +159,7 @@ if (done.length === LANES.length) {
   console.error(`\nReady. Point each model at its OWN lane folder (not the repo root):`);
   for (const lane of LANES) {
     console.error(`   temp/bench/${lane}/`);
-    console.error(`      ehAyeCoreCLI/   authsample/   sales/   todo-spec/   README.md`);
+    console.error(`      benchmark-target/   authsample/   sales/   todo-spec/   README.md`);
   }
   console.error(`\nFixtures are independent copies — edits in one lane never touch the other.`);
   console.error(`Do NOT give models sealed answer keys (kept out of this repo).`);

@@ -1,7 +1,7 @@
 <div align="center">
 
 # Dojo Workspace
-### by ehAye™
+### by Neekware Inc.
 
 **AI That Develops Talent, Not Eliminates It**
 
@@ -15,7 +15,7 @@
 
 ## Overview
 
-**Dojo Workspace by ehAye™** is a local-first environment for working with Dojo: a hands-on AI teammate, mentor, and workflow conductor built for real work.
+**Dojo Workspace** is a local-first environment for working with Dojo: a hands-on AI teammate, mentor, and workflow conductor built for real work.
 
 Dojo is designed to sit beside you while you build and create. It can explain, edit, verify, preview, research, transcribe, generate media, coordinate agents, and keep the work moving without forcing you to stitch together a dozen separate tools.
 
@@ -146,7 +146,7 @@ Thank you to <kbd>AM</kbd>, <kbd>FR</kbd>, <kbd>LS</kbd>, <kbd>RW</kbd>, <kbd>CG
 
 ## Community
 
-- Website: [https://ehaye.io](https://ehaye.io)
+- Website: [https://dojoworkspace.io](https://dojoworkspace.io)
 - X: [@dojoworkspace](https://x.com/dojoworkspace)
 - GitHub: [neekware/DojoWorkspace](https://github.com/neekware/DojoWorkspace)
 - YouTube: [@DojoWorkspace](https://www.youtube.com/@DojoWorkspace)
@@ -159,7 +159,7 @@ This repository is the public home for product visibility, issues, and benchmark
 
 ---
 
-**Powered by ehAye™. Built for people who build and create.**
+**Powered by Dojo. Built for people who build and create.**
 
 ### Trademarks
 

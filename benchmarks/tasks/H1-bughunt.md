@@ -2,25 +2,25 @@
 
 **ID:** `H1`  
 **Suite:** Real Bug Hunt  
-**Fixture:** public `neekware/ehAyeCoreCLI` branch `benchmark` (prepared via `npm run bench:prep`)
+**Fixture:** operator-supplied public repository via `BENCHMARK_REPO_URL`, branch `benchmark` by default (prepared via `npm run bench:prep`)
 
 ## Prep (once per hunt, per model)
 
 From this public repo root:
 
 ```bash
-npm run bench:prep
-# → temp/bench/dojo-solo/ehAyeCoreCLI/
-# → temp/bench/dojo-duo/ehAyeCoreCLI/
+BENCHMARK_REPO_URL=https://github.com/your-org/your-public-target.git npm run bench:prep
+# → temp/bench/dojo-solo/benchmark-target/
+# → temp/bench/dojo-duo/benchmark-target/
 ```
 
 Each folder is a shallow clone of `benchmark` with **`.git` stripped** so the model cannot `git log` / `git diff` the answer.
 
 ## Prompt (verbatim)
 
-> Please find the two bugs in ehAyeCoreCLI — one obvious, one subtle — fix them, and verify your fixes.
+> Please find the two bugs in benchmark-target — one obvious, one subtle — fix them, and verify your fixes.
 
-Point model A at `temp/bench/dojo-solo/ehAyeCoreCLI` and model B at `temp/bench/dojo-duo/ehAyeCoreCLI`.
+Point model A at `temp/bench/dojo-solo/benchmark-target` and model B at `temp/bench/dojo-duo/benchmark-target`.
 
 ## Public severity table (no sealed fixes here)
 
