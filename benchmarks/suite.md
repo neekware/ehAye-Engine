@@ -89,12 +89,12 @@ Instruction Adherence is **not** scored on actions the system is designed to ref
 ## Suite H — public setup only
 
 ```bash
-npm run bench:prep
-# temp/bench/dojo-solo/ehAyeCoreCLI/
-# temp/bench/dojo-duo/ehAyeCoreCLI/
+BENCHMARK_REPO_URL=https://github.com/your-org/your-public-target.git npm run bench:prep
+# temp/bench/dojo-solo/benchmark-target/
+# temp/bench/dojo-duo/benchmark-target/
 ```
 
-Prompt: _Please find the two bugs in ehAyeCoreCLI — one obvious, one subtle — fix them, and verify your fixes._
+Prompt: _Please find the two bugs in benchmark-target — one obvious, one subtle — fix them, and verify your fixes._
 
 Scoring: +3 obvious, +5 subtle, +2 verified fix; time-to-correct is the tiebreaker. Sealed fix details stay **out of this repo**.
 

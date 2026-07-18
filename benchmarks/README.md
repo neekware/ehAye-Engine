@@ -7,7 +7,7 @@ This folder is the **public, self-contained** harness. Run models **from this re
 ## Layout
 
 ```text
-ehAye-Engine/                    ← public repo (this one)
+DojoWorkspace/                    ← public repo (this one)
 ├── package.json                 ← npm scripts for prep / extract / list
 ├── tools/benchmark/             ← prep + usage extract (no private paths)
 ├── benchmarks/
@@ -22,7 +22,7 @@ ehAye-Engine/                    ← public repo (this one)
 │   └── runs/                    ← operator-filled results (gitignored contents)
 └── temp/bench/                  ← per-lane workspaces (gitignored)
     ├── dojo-solo/               ← open this as Model A’s project
-    │   ├── ehAyeCoreCLI/        ← H1 (no .git)
+    │   ├── benchmark-target/        ← H1 (no .git)
     │   ├── authsample/          ← D1/D2 force copy (isolated)
     │   ├── sales/               ← D3 force copy (isolated)
     │   └── todo-spec/           ← G1 force copy (isolated)
@@ -40,7 +40,8 @@ ehAye-Engine/                    ← public repo (this one)
 ```bash
 # From this public repo root
 npm run bench:list          # catalog of task files
-npm run bench:prep          # Suite H: two .git-stripped ehAyeCoreCLI copies
+BENCHMARK_REPO_URL=https://github.com/your-org/your-public-target.git npm run bench:prep
+                            # Suite H: two .git-stripped benchmark-target copies
 
 # Optional: summarize a usage SQLite export (you pass the DB path)
 npm run bench:usage -- --db /path/to/usage.db --out benchmarks/runs/run-a.json
@@ -57,7 +58,7 @@ npm run bench:usage -- --db /path/to/usage.db --out benchmarks/runs/run-a.json
 | **E** | Media orchestration | E1–E4 image → video → audio → stitch | None (score orchestration only) |
 | **F** | Transcription & contention | F1 transcribe, F2 same-file contention | Large media mounted under `temp/` (not in git) |
 | **G** | Build from scratch | G1 todo website | `fixtures/todo-spec` |
-| **H** | Real bug hunt | H1 two deliberate bugs | Public `ehAyeCoreCLI` `@benchmark` via `bench:prep` |
+| **H** | Real bug hunt | H1 two deliberate bugs | Public `benchmark-target` `@benchmark` via `bench:prep` |
 
 Each task lives in its own file under `tasks/` so comparisons stay clear: **this vs that**, one artifact per task.
 
@@ -89,11 +90,11 @@ Operators keep sealed keys and private notes in their private tree only.
 
 ## Related public fixtures
 
-- Bug-hunt source tree: [neekware/ehAyeCoreCLI](https://github.com/neekware/ehAyeCoreCLI) branch **`benchmark`**
+- Bug-hunt source tree: operator-supplied public Git repository via `BENCHMARK_REPO_URL`; defaults to branch **`benchmark`** (override with `BENCHMARK_BRANCH`)
 - Product visibility / issues: this repository’s root README
 
 ## Copyright / trademarks
 
 Copyright © 2006-2026 Neekware Inc. All rights reserved.  
 Benchmark tools and fixtures are for public comparison and reference. Reusing them for your own runs does not require you to open-source your work. This is not a license to the private product.  
-ehAye™ and Dojo are trademarks of Neekware Inc.
+Dojo is a trademark of Neekware Inc.
